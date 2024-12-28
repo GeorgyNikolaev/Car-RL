@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1735320050",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\nikol\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\mlagents-learn car_config.yaml --run-id CarAgentRun1 --env Path/To/Your/Unity/Build --train",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.5.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1735320055"
+    },
+    "total": 4.58997289999752,
+    "count": 1,
+    "self": 0.004358499998488696,
+    "children": {
+        "run_training.setup": {
+            "total": 0.28360519999841927,
+            "count": 1,
+            "self": 0.28360519999841927
+        },
+        "TrainerController.start_learning": {
+            "total": 4.302009200000612,
+            "count": 1,
+            "self": 0.0002147999985027127,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 4.301789400000416,
+                    "count": 1,
+                    "self": 4.301789400000416
+                },
+                "trainer_threads": {
+                    "total": 5.000001692678779e-07,
+                    "count": 1,
+                    "self": 5.000001692678779e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 4.5000015234109014e-06,
+                    "count": 1,
+                    "self": 4.5000015234109014e-06
+                }
+            }
+        }
+    }
+}
